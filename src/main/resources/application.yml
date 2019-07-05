@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  redis:
+    host: 127.0.0.1
+    password: 123456
+    database: 0
+    port: 6379
+
+  freemarker:
+    enabled: true
+    charset: UTF-8
+    cache: false
+    check-template-location: false
+    request-context-attribute: request
+
+logging:
+  level:
+    com.app: debug
+
